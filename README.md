@@ -1,4 +1,4 @@
-# iGen Payment System Exam
+# Enrollment System
 
 A webapp written in ReactJS (with Redux and TypeScript) under Express/SQLite3 backend
 
