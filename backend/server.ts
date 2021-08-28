@@ -49,6 +49,6 @@ app.delete("/api/student", studentDelete);
  */
 app.get("/api/course", courseRead);
 // listen
-app.listen(3001, () => {
+app.listen(process.env.API_PORT, () => {
   console.log("The application is listening on port 3001!");
 });
