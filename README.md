@@ -22,8 +22,8 @@ A webapp written in ReactJS (with Redux and TypeScript) under Express/SQLite3 ba
 
 ## Requirements
 
-- node.js v14.x.x
-- npm v6.x.x
+- node.js v14.x.x (14.17.5 recommended)
+- npm v6.x.x (6.14.14)
 
 ## Installation
 
