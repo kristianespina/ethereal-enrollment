@@ -77,44 +77,44 @@ There are a total of 10 test accounts
 
 ```json
 {
-  email: "student1@gmail.com"
-  password: "123456"
+  "email": "student1@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student2@gmail.com"
-  password: "123456"
+  "email": "student2@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student3@gmail.com"
-  password: "123456"
+  "email": "student3@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student4@gmail.com"
-  password: "123456"
+  "email": "student4@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student5@gmail.com"
-  password: "123456"
+  "email": "student5@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student6@gmail.com"
-  password: "123456"
+  "email": "student6@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student7@gmail.com"
-  password: "123456"
+  "email": "student7@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student8@gmail.com"
-  password: "123456"
+  "email": "student8@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student9@gmail.com"
-  password: "123456"
+  "email": "student9@gmail.com",
+  "password": "123456"
 },
 {
-  email: "student10@gmail.com"
-  password: "123456"
+  "email": "student10@gmail.com",
+  "password": "123456"
 }
 ```
 
