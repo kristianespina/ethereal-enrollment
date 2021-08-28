@@ -71,6 +71,53 @@ Using the browser, we can now access the tic tac toe web app at this url: `http:
 
 The repository is divided into two parts: the _frontend_ and the _backend_. In production setting, this is **NOT** recommended as we typically create separate repositories for the backend and the frontend. However, for this submission, to keep everything in one place, I've deliberately structured it this way.
 
+## Test Accounts
+
+There are a total of 10 test accounts
+
+```json
+{
+  email: "student1@gmail.com"
+  password: "123456"
+},
+{
+  email: "student2@gmail.com"
+  password: "123456"
+},
+{
+  email: "student3@gmail.com"
+  password: "123456"
+},
+{
+  email: "student4@gmail.com"
+  password: "123456"
+},
+{
+  email: "student5@gmail.com"
+  password: "123456"
+},
+{
+  email: "student6@gmail.com"
+  password: "123456"
+},
+{
+  email: "student7@gmail.com"
+  password: "123456"
+},
+{
+  email: "student8@gmail.com"
+  password: "123456"
+},
+{
+  email: "student9@gmail.com"
+  password: "123456"
+},
+{
+  email: "student10@gmail.com"
+  password: "123456"
+}
+```
+
 ## Author
 
 Kristian Espina
