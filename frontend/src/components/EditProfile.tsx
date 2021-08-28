@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import { Flex, Text, Box, Spacer, Button, useToast } from "@chakra-ui/react";
+import { Flex, Text, Spacer, Button, useToast } from "@chakra-ui/react";
 import InputField from "./Input/InputField";
 import InputDate from "./Input/InputDate";
 

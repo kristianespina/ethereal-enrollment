@@ -13,7 +13,6 @@ import { studentCreate, StudentRequest } from "../api/student";
 
 // redux
 import { updateStudent } from "../features/student/studentSlice";
-import { updateToken } from "../features/session/sessionSlice";
 import { useAppDispatch } from "../app/hooks";
 
 const RegistrationForm = () => {

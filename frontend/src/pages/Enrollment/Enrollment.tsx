@@ -49,6 +49,7 @@ const Enrollment = () => {
       });
       history.push("/login");
     } else getCourses();
+    // eslint-disable-next-line
   }, []);
   return (
     <Flex direction="column" bgColor="gray.100" pb={12} minH="100vh">
