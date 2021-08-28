@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Avenir";
+  src: local("Avenir"), url(../assets/AvenirLTStd-Book.otf) format("otf");
+}
+body {
+  margin: 0;
+  font-family: "Avenir", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.background {
+  background: url("../assets/background.jpg");
+  background-size: cover;
+}

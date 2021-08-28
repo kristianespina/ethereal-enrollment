@@ -1,0 +1,162 @@
+'use strict';
+
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert('Student', [
+      // not enrolled
+      {
+        id: 1,
+        firstName: "Trina",
+        lastName: "Mordey",
+        middleName: "Yeo",
+        sex: "Female",
+        courses: JSON.stringify([]),
+        email: "student1@gmail.com",
+        studentCode: "student1@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 2,
+        firstName: "Caldwell",
+        lastName: "Coneron",
+        middleName: "McIllrick",
+        sex: "Male",
+        courses: JSON.stringify([]),
+        email: "student2@gmail.com",
+        studentCode: "student2@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      // enrolled in 1 course
+      {
+        id: 3,
+        firstName: "Franni",
+        lastName: "Nancarrow",
+        middleName: "Borzoni",
+        sex: "Female",
+        courses: JSON.stringify([1]),
+        email: "student3@gmail.com",
+        studentCode: "student3@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 4,
+        firstName: "Marion",
+        lastName: "Alsopp",
+        middleName: "Klich",
+        sex: "Male",
+        courses: JSON.stringify([2]),
+        email: "student4@gmail.com",
+        studentCode: "student4@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      // enrolled in multiple courses
+      {
+        id: 5,
+        firstName: "Egnigem",
+        lastName: "Cenia",
+        middleName: "Ymir",
+        sex: "Female",
+        courses: JSON.stringify([1, 2, 3, 4, 5, 6]),
+        email: "student5@gmail.com",
+        studentCode: "student5@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 6,
+        firstName: "Kavach",
+        lastName: "Icarus",
+        middleName: "Odin",
+        sex: "Male",
+        courses: JSON.stringify([2, 3, 4, 5, 6, 7]),
+        email: "student6@gmail.com",
+        studentCode: "student6@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 7,
+        firstName: "Katheryne",
+        lastName: "Keyron",
+        middleName: "Alberta",
+        sex: "Female",
+        courses: JSON.stringify([3, 4, 5, 6, 7, 8, 9, 10, 11]),
+        email: "student7@gmail.com",
+        studentCode: "student7@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 8,
+        firstName: "Margaretha",
+        lastName: "Sorin",
+        middleName: "Prontera",
+        sex: "Female",
+        courses: JSON.stringify([1, 7, 8, 9, 10, 11, 12, 13, 14]),
+        email: "student8@gmail.com",
+        studentCode: "student8@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      // enrolled in all courses
+      {
+        id: 9,
+        firstName: "Howard",
+        lastName: "Payon",
+        middleName: "Alt-Eisen",
+        sex: "Male",
+        courses: JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        email: "student9@gmail.com",
+        studentCode: "student9@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 10,
+        firstName: "Seyren",
+        lastName: "Yuno",
+        middleName: "Windsor",
+        sex: "Male",
+        courses: JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        email: "student10@gmail.com",
+        studentCode: "student10@gmail.com",
+        password: "$2b$10$TGgxkpXskK2rd54Ar118v.We10lMqnvQ996RtQKWgVKS3/9VjCmQa",
+        birthDate: new Date(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+    ], {})
+  },
+
+  down: async (queryInterface, Sequelize) => {
+    /**
+     * Add commands to revert seed here.
+     *
+     * Example:
+     * await queryInterface.bulkDelete('People', null, {});
+     */
+    await queryInterface.bulkDelete('Student', null, {});
+  }
+};
